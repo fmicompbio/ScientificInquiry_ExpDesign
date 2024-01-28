@@ -33,7 +33,7 @@ jobs:
           mkdir _site
           mkdir _site/slides
           cp -r index.html _site/
-          cp -r images libs css _site/slides
+          cp -r css _site/slides
           cp expdesign_lecture.html _site/slides/index.html
           cp expdesign_practical.html _site/expdesign_practical.html
           cp design_matrices.html _site/design_matrices.html
