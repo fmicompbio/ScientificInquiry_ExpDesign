@@ -1,0 +1,46 @@
+on:
+  push:
+    branches:
+      - main
+
+name: deploy-rmd
+
+jobs:
+  deploy-rmd:
+    runs-on: ${{ matrix.config.os }}
+
+    name: ${{ matrix.config.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: macOS-latest}
+
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Prepare files to deploy
+        run: |
+          mkdir _site
+          mkdir _site/slides
+          cp -r index.html _site/
+          cp -r images libs css _site/slides
+          cp expdesign_lecture.html _site/slides/index.html
+          cp expdesign_practical.html _site/expdesign_practical.html
+          cp design_matrices.html _site/design_matrices.html
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: _site

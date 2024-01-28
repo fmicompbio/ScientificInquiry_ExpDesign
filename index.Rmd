@@ -1,0 +1,52 @@
+---
+title: "Scientific Inquiry - Experimental design session 2024"
+output:
+  rmarkdown::html_document:
+    theme: united
+    highlight: pygments
+    toc: false
+    fig_width: 5
+editor_options: 
+  chunk_output_type: console
+---
+
+This page contains links to material for the experimental design session of the FMI Scientific Inquiry course 2024.
+
+* [Slides](slides/)
+* [Exercises on confounding (for self-study)](expdesign_practical.html)
+* [Notes on design matrices (for self-study)](design_matrices.html)
+
+<hr>
+
+# Resources
+
+[**Nature Methods 'Statistics for Biologists' collection**](https://www.nature.com/collections/qghhqm): 
+
+* [N Altman & M Krzywinski: Sources of variation. _Nat Methods_ 12:5-6 (2015)](https://www.nature.com/articles/nmeth.3224)
+* [M Krzywinski & N Altman: Designing comparative experiments. _Nat Methods_ 11:597-598 (2014)](https://www.nature.com/articles/nmeth.2974)
+* [M Krzywinski & N Altman: Analysis of variance and blocking. _Nat Methods_ 11:699-700 (2014)](https://www.nature.com/articles/nmeth.3005)
+* [P Blainey, M Krzywinski & N Altman: Replication. _Nat Methods_ 11:879-880 (2014)](https://www.nature.com/articles/nmeth.3091)
+* [M Krzywinski, N Altman & P Blainey: Nested designs _Nat Methods_ 11:977-978 (2014)](https://www.nature.com/articles/nmeth.3137)
+* [M Krzywinski & N Altman: Two-factor designs. _Nat Methods_ 11:1187-1188 (2014)](https://www.nature.com/articles/nmeth.3180)
+
+**Other relevant material**:
+
+* [Slide deck from Susan Holmes and Wolfgang Huber on Experimental Design](https://www.huber.embl.de/users/whuber/2301-GHGA-best-analysis-practices/design.html#/title-slide)
+* [R package containing a shiny app to explore confounding and different experimental designs](https://csoneson.github.io/ConfoundingExplorer/)
+
+* [M Baker: 1,500 scientists lift the lid on reproducibility. _Nature_ 533:452–454 (2016)](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
+* [LB Sheiner: Learning vs confirming in clinical drug development. _Clinical Pharmacology and Therapeutics_ 61(3):275-291 (1997)](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1016/S0009-9236%2897%2990160-0)
+* [PL Auer & RW Doerge: Statistical design and analysis of RNA sequencing data. _Genetics_ 185(2):405-416 (2010)](https://www.genetics.org/content/185/2/405)
+* [SE Lazic: Experimental design for laboratory biologists. _Cambridge University Press_ (2016)](https://stanlazic.github.io/EDLB.html)
+* [SE Lazic et al: What exactly is ‘N’ in cell culture and animal experiments? _PLoS Biol_ 16(4): e2005282 (2018)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2005282)
+* [P Norvig: Warning signs in experimental design and interpretation](https://norvig.com/experiment-design.html)
+* [JT Leek et al: Tackling the widespread and critical impact of batch effects in high-throughput data. _Nature Reviews Genetics_ 11:733–739 (2010)](https://www.nature.com/articles/nrg2825)
+* [MJ Larsen et al: Microarray-Based RNA Profiling of Breast Cancer: Batch Effect Removal Improves Cross-Platform Consistency. _Biomed Res Int_ 2014: 651751 (2014)](https://www.hindawi.com/journals/bmri/2014/651751/)
+* [S Lin et al: Comparison of the transcriptional landscapes between human and mouse tissues. _PNAS_ 111(48):17224-17229 (2014)](https://www.pnas.org/content/111/48/17224)
+* [Y Gilad & O Mizrahi-Man: A reanalysis of mouse ENCODE comparative gene expression data. _F1000Research_ 4:121 (2015)](https://f1000research.com/articles/4-121/v1)
+* [J Hu et al: The importance of experimental design in proteomic mass spectrometry experiments: Some cautionary tales. _Briefings in Functional Genomics_ 3(4):322–331 (2005)](https://academic.oup.com/bfg/article/3/4/322/197822)
+* [B Klaus: Statistical relevance - relevant statistics, part I. _EMBO Journal_ 34:2727-2730 (2015)](https://www.embopress.org/doi/full/10.15252/embj.201592958)
+
+
+
+

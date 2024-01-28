@@ -1,0 +1,24 @@
+<style>
+.logo {
+  background-image: url(images/FMI_logo_extended_purple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 1.5em;
+  left: 750px;
+  width: 519px;
+  height: 225px;
+  z-index: 0;
+}
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    '.title-slide'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
