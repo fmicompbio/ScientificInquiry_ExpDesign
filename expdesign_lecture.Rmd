@@ -288,9 +288,6 @@ $$y = \beta_0 + \beta_1\cdot batch + \beta_2\cdot condition + \varepsilon$$
 * .large[For exploratory analysis, we often attempt to "eliminate" or "adjust for" such unwanted variation in advance, by subtracting the estimated effect from each variable (e.g. the expression of a gene).]
   * .large[Not recommended before statistical modelling, since the variance will be underestimated.]
 
---
-* .large[Even partial confounding between batch and signal of interest can lead to problems.]
-
 ---
 exclude: true
 
@@ -506,6 +503,18 @@ class: inverse
 * .Large[Required to estimate within-group variability, which is then compared to the observed between-group difference in statistical tests.]
 
 ![](images/compare_variance.001.png)
+---
+
+# What do we gain by increasing the number of replicates?
+
+* More precision in our summary estimates (e.g., the mean).
+* Replicates must be _representative_ of the population of interest!
+* Precision is not the same as accuracy!
+
+<center>
+![:scale 78%](images/accuracy_precision.png)
+</center>
+
 ---
 
 # Not all replicates are equal!
