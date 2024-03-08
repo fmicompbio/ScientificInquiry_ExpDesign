@@ -12,7 +12,8 @@ editor_options:
 
 This page contains links to material for the experimental design session of the FMI Scientific Inquiry course 2024.
 
-* [Slides](slides/)
+* [Slides Charlotte](slides/)
+* [Slides Michael (PDF)](MStadler_ScientificInquiry_Part2_2024.pdf)
 * [Exercises on confounding (for self-study)](expdesign_practical.html)
 * [Notes on design matrices (for self-study)](design_matrices.html)
 
