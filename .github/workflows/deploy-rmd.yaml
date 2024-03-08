@@ -37,6 +37,7 @@ jobs:
           cp expdesign_lecture.html _site/slides/index.html
           cp expdesign_practical.html _site/expdesign_practical.html
           cp design_matrices.html _site/design_matrices.html
+          cp MStadler_ScientificInquiry_Part2_2024.pdf _site/MStadler_ScientificInquiry_Part2_2024.pdf
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
