@@ -445,13 +445,13 @@ Look a bit more into the last point in the next session
 ![:scale 100%](images/Lazic_expeffects.png)
 </center>
 
+<div class="my-footer"><span>Lazic (2016), isbn:978-1107424883</span></div> 
+
 ???
 * Most of the time, our goal is to estimate treatment effects as well as possible. 
 * (Technical) factors that are not of direct interest are often collectively referred to as 'batch effects'.
 * We (typically) can't do much about the fact that all these factors _have_ an effect on our measurements.
 * What we can (and should) do is to design our experiments in such a way that the impact on our ability to draw conclusions is minimized.
-
-<div class="my-footer"><span>Lazic (2016), isbn:978-1107424883</span></div> 
 
 ---
 
@@ -460,7 +460,21 @@ Look a bit more into the last point in the next session
 .full-width[.small-content-box-gray[
 * .large[**Minimize** it by holding factors constant (e.g., only considering female mice). This reduces unwanted variability, **but** we can't generalize our conclusions to groups that are not included!]
 ]]
---
+
+![](images/nihms-1731509-f0002-cropped.png)
+<div class="my-footer"><span>Roy et al (2021), doi: 10.1038/s42255-021-00449-w</span></div> 
+
+???
+Quantify the impact of differences in diet on lifespan in a genetically diverse family of female mice, split into matched isogenic cohorts fed a low-fat chow diet (CD, n = 663) or a high-fat diet (HFD, n = 685).
+Lifespan on high-fat diet depends strongly on mouse strain
+
+---
+
+# How to deal with the impact of unwanted variation?
+
+.full-width[.small-content-box-gray[
+* .large[**Minimize** it by holding factors constant (e.g., only considering female mice). This reduces unwanted variability, **but** we can't generalize our conclusions to groups that are not included!]
+]]
 .full-width[.small-content-box-gray[
 * .large[Use **blocking** to balance the factor of interest across confounding factors. E.g., assign treatment group randomly within each sex group.] 
   * Extreme example: blocking _within each biological sample_ (e.g., take measurement from each mouse before and after a treatment). This leads to a **paired design**. 
@@ -508,13 +522,14 @@ class: inverse
 # What do we gain by increasing the number of replicates?
 
 * More precision in our summary estimates (e.g., the mean).
-* Replicates must be _representative_ of the population of interest!
+* Replicates should be _representative_ of the population of interest!
 * Precision is not the same as accuracy!
 
 <center>
 ![:scale 78%](images/accuracy_precision.png)
 </center>
 
+<div class="my-footer"><span>Modified from https://www.antarcticglaciers.org/glacial-geology/dating-glacial-sediments-2/precision-and-accuracy-glacial-geology/</span></div> 
 ---
 
 # Not all replicates are equal!
