@@ -39,6 +39,9 @@ jobs:
           cp design_matrices.html _site/design_matrices.html
           cp MStadler_ScientificInquiry_Part2_2024.pdf _site/MStadler_ScientificInquiry_Part2_2024.pdf
 
+          # 2024
+          cp -r 2024 _site/2024
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:

@@ -1,5 +1,5 @@
 ---
-title: "Scientific Inquiry - Experimental design session 2024"
+title: "Scientific Inquiry - Experimental design session"
 output:
   rmarkdown::html_document:
     theme: united
@@ -48,6 +48,6 @@ This page contains links to material for the experimental design session of the 
 * [J Hu et al: The importance of experimental design in proteomic mass spectrometry experiments: Some cautionary tales. _Briefings in Functional Genomics_ 3(4):322–331 (2005)](https://academic.oup.com/bfg/article/3/4/322/197822)
 * [B Klaus: Statistical relevance - relevant statistics, part I. _EMBO Journal_ 34:2727-2730 (2015)](https://www.embopress.org/doi/full/10.15252/embj.201592958)
 
+### Archive
 
-
-
+[2024](2024/index.html)
