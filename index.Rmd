@@ -35,6 +35,8 @@ This page contains links to material for the experimental design session of the 
 * [Slide deck from Susan Holmes and Wolfgang Huber on Experimental Design](https://www.huber.embl.de/users/whuber/2301-GHGA-best-analysis-practices/design.html#/title-slide)
 * [R package containing a shiny app to explore confounding and different experimental designs](https://csoneson.github.io/ConfoundingExplorer/)
 
+* [A blog post about interpreting p-value histograms](http://varianceexplained.org/statistics/interpreting-pvalue-histogram/)
+
 * [M Baker: 1,500 scientists lift the lid on reproducibility. _Nature_ 533:452–454 (2016)](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
 * [LB Sheiner: Learning vs confirming in clinical drug development. _Clinical Pharmacology and Therapeutics_ 61(3):275-291 (1997)](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1016/S0009-9236%2897%2990160-0)
 * [PL Auer & RW Doerge: Statistical design and analysis of RNA sequencing data. _Genetics_ 185(2):405-416 (2010)](https://www.genetics.org/content/185/2/405)
