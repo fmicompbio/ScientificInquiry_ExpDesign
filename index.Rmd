@@ -1,5 +1,5 @@
 ---
-title: "Scientific Inquiry - Experimental design session"
+title: "Scientific Inquiry - Experimental design session 2025"
 output:
   rmarkdown::html_document:
     theme: united
