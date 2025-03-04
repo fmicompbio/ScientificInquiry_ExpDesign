@@ -2,7 +2,7 @@
 title: 'Experimental design'
 author: '[Charlotte Soneson](https://csoneson.github.io)'
 institute: 'Computational Biology Platform, Friedrich Miescher Institute for Biomedical Research'
-date: 'March 8, 2024'
+date: 'March 14, 2025'
 output:
   xaringan::moon_reader:
     lib_dir: libs

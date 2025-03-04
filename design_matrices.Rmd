@@ -2,10 +2,10 @@
 title: >
   Design matrices
 subtitle: >
-  Scientific Inquiry 2024
+  Scientific Inquiry 2025
 author:
 - name: <a href="https://csoneson.github.io">Charlotte Soneson (charlotte.soneson@fmi.ch)</a>
-date: "2024-03-08"
+date: "2025-03-14"
 output: 
   bookdown::html_document2:
     toc: true
